@@ -41,5 +41,5 @@ int     start_threads(t_params *params, t_philo *philos);
 void    *monitor_routine(void *arg);
 void    *philosopher_thread(void *arg);
 long    get_time_ms(void);
-
+int	ft_atoi(const char *str);
 #endif
